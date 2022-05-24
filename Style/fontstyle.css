@@ -1,0 +1,14 @@
+
+h1{
+    font-family: PFD !important;
+    color: white;
+}
+p{
+    font-family: PFD !important;
+}
+
+@font-face {
+    font-family: PFD;
+    src: url('../Fonts/PlayfairDisplay-Regular.ttf');
+
+}

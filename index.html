@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomePage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="Style/style.css">
+  <link rel="stylesheet" href="Style/fontstyle.css">
+</head>
+
+<body>
+  <!-- NAV BAR-->
+  
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Images/logo.png" alt="" id="logo" ></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item-active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="movies.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Movies
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: black;">
+              <li><a class="dropdown-item" href="movies.html" style="color: white;">Movies</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="action.html" style="color: white;">Action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="drama.html" style="color: white;">Drama</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              TV Shows
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: black;">
+              <li><a class="dropdown-item" href="shows.html" style="color: white;">TV Shows</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="action2.html" style="color: white;">Action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="drama2.html" style="color: white;">Drama</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="cartoons.html">
+              Cartoons
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form me-2" type="search" placeholder="Search" aria-label="Search" style="color: white; background-color: black;">
+          <button class="btn btn-dark" style="color: white; background-color: black;" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br>
+  
+  
+  <!-- First Carousel -->
+  
+  <div id="carouselFirst" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <a href="duneVideo.html"> <img src="Images/landscape5.jpeg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <a href="#"> <img src="Images/landscape1.jpeg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <a href="#"> <img src="Images/landscape2.jpeg" class="d-block w-100" alt="..."></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFirst" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselFirst" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <br>
+  
+  <h1 style="text-align: center;">TOP MOVIES</h1>
+  <br>
+  
+  <!-- Second carousel -->
+  
+  <div id="carouselSecond" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <div class="row"  style="margin-right: 5%; margin-left: 10%;">
+          <div class="col">
+            <div class="card" style="width: 18rem;" >
+              <a href="duneVideo.html"><img src="Images/dune.jpeg" class="card-img-top" alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/Us.jpeg" class="card-img-top" alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/jaws.jpeg" class="card-img-top" alt="..."></a>                   
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="carousel-item" data-bs-interval="3000">
+        <div class="row" style="margin-right: 5%; margin-left: 10%;">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/moonlight.jpeg" class="card-img-top" alt="..."></a>                    
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/replicas.jpeg" class="card-img-top" alt="..."></a>                    
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/titanic.jpeg" class="card-img-top" alt="..."></a>                     
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <div class="row" style="margin-right: 5%; margin-left: 10%;" >
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/bohemian-rhapsody-web.jpeg" class="card-img-top" alt="..."></a>                    
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/beautyandthebeast.jpeg" class="card-img-top" alt="..."></a>                     
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/brokeback.jpg" class="card-img-top" alt="..."></a>                    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSecond" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselSecond" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <br>
+  
+  <h1 style="text-align: center;">Top TV Shows</h1>
+  <br>
+  
+  <!-- Third Carousel -->
+  <div id="carouselThird" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3500">
+        <div class="row"  style="margin-right: 5%; margin-left: 10%;">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/Witcher-Netflix-TV-Series-Poster.jpeg" class="card-img-top" alt="..."></a>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/murder.jpeg" class="card-img-top" alt="..."></a>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/moneyheist.jpeg" class="card-img-top" alt="..."></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3500">
+        <div class="row" style="margin-right: 5%; margin-left: 10%;">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/narcos.png" class="card-img-top" alt="..."></a>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;" >
+              <a href="duneVideo.html"><img src="Images/g.jpeg" class="card-img-top" alt="..."></a>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/euphori.png" class="card-img-top" alt="..."></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3500">
+        <div class="row" style="margin-right: 5%; margin-left: 10%;" >
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/dead-to-me.jpeg" class="card-img-top" alt="..."></a>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/HauntingOfHillHouse-NetflixHorrorTVShowPoster_4fc47c61-546d-4505-90a4-2c10def767ea.jpeg" class="card-img-top" alt="..."></a>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="duneVideo.html"><img src="Images/stranger-things-one-sheet-season-2-i67844.jpeg" class="card-img-top" alt="..."></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselThird" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselThird" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <br>
+  
+  
+  
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="Scripts/fontawesome.js"></script>
+</body>
+</html>
